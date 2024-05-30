@@ -2,16 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
+    width: 100%;
     background-color: #bc6588;
     color: #fff;
-    padding: 20px 0;
+    padding: 15px 0;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
   display: flex;
   justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+
   gap: 20px;
 }
 
@@ -21,6 +26,10 @@ header {
     align-items: center;
     padding: 0 20px;
     gap: 30px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100vw;
 }
 
 .logo img {

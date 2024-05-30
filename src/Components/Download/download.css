@@ -1,17 +1,17 @@
-body, html {
-    margin: 0;
-    padding: 0;
-}
+
 body {
     color: black;
     display: table;
     font-family: Georgia, serif;
     font-size: 24px;
     text-align: center;
+    background-image: url("https://www.shutterstock.com/image-photo/grunge-dark-wallpaper-600nw-125798204.jpg");
+
 }
+/*
 .container {
     border: 20px solid tan;
-    width: 750px;
+    width: 100%;
     height: 563px;
     display: table-cell;
     vertical-align: middle;
@@ -38,4 +38,4 @@ body {
 }
 .reason {
     margin: 20px;
-}
+} */
