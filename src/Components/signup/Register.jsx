@@ -48,7 +48,7 @@ const dispatch=useDispatch()
     // Make POST request to your server
     try {
     
-      const response = await axios.post('http://localhost:8000/register', {
+      const response = await axios.post('https://backend-8f68.onrender.com/register', {
         name:name,
         email:email,
         password:password

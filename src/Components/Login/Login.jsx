@@ -29,7 +29,7 @@ const Login = () => {
 
     // Make POST request to your server
     try {
-      const response = await axios.post('http://localhost:8000/login', {
+      const response = await axios.post('https://backend-8f68.onrender.com/login', {
         email,
         password,
         termsAgreed,

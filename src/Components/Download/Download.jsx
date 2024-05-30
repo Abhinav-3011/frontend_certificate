@@ -69,7 +69,7 @@ const Download = () => {
 
 //  after download of multiple file we have send to a request on the backend
 
-    let res=await axios.post("http://localhost:8000/send_to_mail",{
+    let res=await axios.post("https://backend-8f68.onrender.com/send_to_mail",{
       value:login_check_value,
       data:data,
       templateSelect:templateSelect,
